@@ -11,6 +11,9 @@
   "Feature": {
     "title": "Feature"
   },
+  "Ability": {
+    "title": "Ability"
+  },
   "Pricing": {
     "title": "定价",
     "title2": "拥有无限访问权限",
