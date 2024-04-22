@@ -6,6 +6,7 @@ import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
 import SocialProof from "@/components/home/SocialProof";
 import WallOfLove from "@/components/home/WallOfLove";
+import VideoPlayer from "@/components/home/Video";
 import { defaultLocale, getDictionary } from "@/lib/i18n";
 
 export default async function LangHome({
@@ -23,9 +24,10 @@ export default async function LangHome({
     <>
       {/* Hero Section */}
       <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
-      <SocialProof locale={dict.SocialProof} />
+      {/*<SocialProof locale={dict.SocialProof} />*/}
       {/* Can be used to display technology stack, partners, project honors, etc. */}
-      <ScrollingLogos />
+      {/*<ScrollingLogos />*/}
+      <VideoPlayer />
 
       {/* USP (Unique Selling Proposition) */}
       <Feature id="Features" locale={dict.Feature} langName={langName} />

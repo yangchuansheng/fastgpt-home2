@@ -4,6 +4,11 @@ import { BsGithub } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
 import { MdCloudUpload } from "react-icons/md";
+import { RiQuestionAnswerFill } from "react-icons/ri";
+import { FcWorkflow } from "react-icons/fc";
+import { GiExpander } from "react-icons/gi";
+import { VscDebugConsole } from "react-icons/vsc";
+import { SiOpenai } from "react-icons/si";
 
 export const FEATURES_EN = [
   {
@@ -46,33 +51,33 @@ export const FEATURES_EN = [
 export const FEATURES_ZH = [
   {
     title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
+    content: "项目代码开源，内容安全可靠。",
     icon: BsGithub,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "独特的 QA 结构",
+    content: "针对客服问答场景设计的 QA 结构，提高在大量数据场景中的问答准确性。",
+    icon: RiQuestionAnswerFill,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "可视化工作流",
+    content: "通过 Flow 模块可视化从问题输入到模型输出的完整流程，便于调试和设计复杂流程。",
+    icon: FcWorkflow,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "无限扩展",
+    content: "基于 API 进行扩展，无需修改 FastGPT 源码，也可快速接入现有的程序中。",
+    icon: GiExpander,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "便于调试",
+    content: "提供搜索测试、引用修改、完整对话预览等多种调试途径。",
+    icon: VscDebugConsole,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "支持多种模型",
+    content: "支持 GPT、Claude、文心一言等多种 LLM 模型，未来也将支持自定义的向量模型。",
+    icon: SiOpenai,
   },
 ];
 

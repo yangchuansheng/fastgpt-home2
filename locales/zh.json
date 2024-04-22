@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
-    "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "title1": "让",
+    "title2": "AI",
+    "title3": "更懂您的知识",
+    "description": "基于 LLM 大模型的开源 AI 知识库构建平台。提供了开箱即用的数据处理、模型调用、RAG 检索、可视化 AI 工作流编排等能力，帮助您轻松实现复杂的问答场景。"
   },
   "SocialProof": {
     "maker": "制作者快速开发"
@@ -38,6 +38,6 @@
     "description6": "！"
   },
   "CTAButton": {
-    "title": "获取模板"
+    "title": "开始使用"
   }
 }

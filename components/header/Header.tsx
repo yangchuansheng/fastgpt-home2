@@ -8,6 +8,9 @@ import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
+import Plyr from 'plyr';
+
+const player = new Plyr('#player');
 
 const links = [
   {
@@ -36,8 +39,8 @@ const Header = () => {
         <div className="flex items-center md:gap-x-12">
           <Link
             href="/"
-            aria-label="Landing Page Boilerplate"
-            title="Landing Page Boilerplate"
+            aria-label="FastGPT"
+            title="FastGPT"
             className="flex items-center space-x-1 font-bold"
           >
             <Image
@@ -48,7 +51,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              FastGPT
             </span>
           </Link>
         </div>
@@ -90,8 +93,8 @@ const Header = () => {
                   <div>
                     <Link
                       href="/"
-                      aria-label="Landing Page Boilerplate"
-                      title="Landing Page Boilerplate"
+                      aria-label="FastGPT"
+                      title="FastGPT"
                       className="inline-flex items-center"
                     >
                       <Image
@@ -152,5 +155,7 @@ const Header = () => {
     </header>
   );
 };
+
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
 export default Header;

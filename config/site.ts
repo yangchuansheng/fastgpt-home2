@@ -3,10 +3,10 @@ import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+const OPEN_SOURCE_URL = 'https://fastgpt.in'
 
 const baseSiteConfig = {
-  name: "Landing page boilerplate",
+  name: "FastGPT",
   description:
     "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
   url: "https://landingpage.weijunext.com",
@@ -21,7 +21,7 @@ const baseSiteConfig = {
     }
   ],
   creator: '@weijunext',
-  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
+  openSourceURL: 'https://fastgpt.in',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -48,7 +48,7 @@ const baseSiteConfig = {
   footerProducts: [
     { url: 'https://weijunext.com/', name: 'J实验室' },
     { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
-    { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
+    { url: 'https://landingpage.weijunext.com/', name: 'FastGPT' },
     { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
     { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
     { url: 'https://githubbio.com', name: 'Github Bio Generator' },
