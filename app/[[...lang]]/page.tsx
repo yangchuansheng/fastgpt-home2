@@ -1,12 +1,11 @@
+import Ability from "@/components/home/Ability";
 import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
 import Feature from "@/components/home/Feature";
 import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
-import ScrollingLogos from "@/components/home/ScrollingLogos";
-import SocialProof from "@/components/home/SocialProof";
-import WallOfLove from "@/components/home/WallOfLove";
 import VideoPlayer from "@/components/home/Video";
+import WallOfLove from "@/components/home/WallOfLove";
 import { defaultLocale, getDictionary } from "@/lib/i18n";
 
 export default async function LangHome({
@@ -29,6 +28,8 @@ export default async function LangHome({
       {/*<ScrollingLogos />*/}
       <VideoPlayer />
 
+      <Ability id="Ability" locale={dict.Ability} langName={langName} />
+
       {/* USP (Unique Selling Proposition) */}
       <Feature id="Features" locale={dict.Feature} langName={langName} />
 
@@ -46,3 +47,4 @@ export default async function LangHome({
     </>
   );
 }
+

@@ -8,9 +8,9 @@ import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
-import Plyr from 'plyr';
 
-const player = new Plyr('#player');
+// import Plyr from "plyr";
+// const player = new Plyr("#player");
 
 const links = [
   {
@@ -156,6 +156,7 @@ const Header = () => {
   );
 };
 
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />;
 
 export default Header;
+

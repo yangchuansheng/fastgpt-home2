@@ -14,3 +14,4 @@ export default function PhSunBold(props: any) {
     </svg>
   );
 }
+
