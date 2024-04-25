@@ -3,25 +3,26 @@ import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
-const OPEN_SOURCE_URL = 'https://fastgpt.in'
+const OPEN_SOURCE_URL = 'https://github.com/labring/FastGPT'
 
 const baseSiteConfig = {
   name: "FastGPT",
   description:
-    "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
-  url: "https://landingpage.weijunext.com",
+    "A free, open-source, and powerful AI knowledge base platform, offers out-of-the-box data processing, model invocation, RAG retrieval, and visual AI workflows. Easily build complex Q&A systems.",
+  url: "https://fastgpt.in",
   ogImage: "https://landingpage.weijunext.com/og.png",
   metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  keywords: ["rag", "ai", "workflow", "llm", "langchain", "gpt", "gpt4", "orchestration"],
+  commercial: "https://doc.fastai.site/docs/commercial/intro/",
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
+      name: "labring",
+      url: "https://fastgpt.in",
+      twitter: 'https://github.com/labring',
     }
   ],
-  creator: '@weijunext',
-  openSourceURL: 'https://fastgpt.in',
+  creator: '@fastgpt',
+  openSourceURL: 'https://cloud.fastgpt.in',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -30,29 +31,22 @@ const baseSiteConfig = {
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
-    apple: "/logo.png",
+    apple: "/logo.svg",
   },
   headerLinks: [
     { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    { name: 'weChat', href: "https://oss.laf.run/htr4n1-images/fastgpt-qr-code.jpg", icon: BsWechat }
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
-    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
+    { name: 'email', href: "mailto:cloud-native-yang@sealos.io", icon: MdEmail },
+    { name: 'github', href: "https://github.com/labring/FastGPT", icon: BsGithub },
+    { name: 'weChat', href: "https://oss.laf.run/htr4n1-images/fastgpt-qr-code.jpg", icon: BsWechat }
   ],
   footerProducts: [
-    { url: 'https://weijunext.com/', name: 'J实验室' },
-    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
-    { url: 'https://landingpage.weijunext.com/', name: 'FastGPT' },
-    { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
-    { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
-    { url: 'https://githubbio.com', name: 'Github Bio Generator' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
+    { url: 'https://sealos.io', name: 'Sealos' },
+    { url: 'https://doc.fastai.site', name: 'Docs' },
+    { url: 'https://doc.fastai.site/docs/community/', name: 'Forum' },
+    { url: 'https://uuhyahynnudq.hzh.sealos.run/status/in', name: 'Status' },
   ]
 }
 

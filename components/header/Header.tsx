@@ -9,29 +9,16 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 
-// import Plyr from "plyr";
-// const player = new Plyr("#player");
-
-const links = [
-  {
-    label: "Features",
-    href: "#Features",
-  },
-  {
-    label: "Pricing",
-    href: "#Pricing",
-  },
-  {
-    label: "Wall of Love",
-    href: "#WallOfLove",
-  },
-  {
-    label: "FAQ",
-    href: "#FAQ",
-  },
-];
-
-const Header = () => {
+const Header = ({
+  dict,
+}: {
+  dict: {
+    links: {
+      label: string;
+      href: string;
+    }[];
+  };
+}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -57,7 +44,7 @@ const Header = () => {
         </div>
 
         <ul className="hidden items-center gap-6 md:flex">
-          {links.map((link) => (
+          {dict?.links.map((link) => (
             <li key={link.label}>
               <Link
                 href={link.href}
@@ -122,7 +109,7 @@ const Header = () => {
                 </div>
                 <nav>
                   <ul className="space-y-4">
-                    {links.map((link) => (
+                    {dict?.links.map((link) => (
                       <li key={link.label}>
                         <Link
                           href={link.href}
@@ -156,7 +143,4 @@ const Header = () => {
   );
 };
 
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />;
-
 export default Header;
-

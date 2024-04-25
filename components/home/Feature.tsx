@@ -22,6 +22,7 @@ const Feature = ({
           {locale.title}
         </RoughNotation>
       </h2>
+      <h3 className="text-center text-4xl font-medium tracking-tight">{locale.description}</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES?.map((feature, index) => (
           <div

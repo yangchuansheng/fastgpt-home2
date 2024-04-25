@@ -1,213 +1,154 @@
 export const ABILITYS_EN = [
   {
-    title: "AI Assistant",
+    title: "Domain-Specific AI Assistant",
     content:
-      "Both internally and externally, AI will be available to your users 24 hours a day",
+      "Create AI-powered chatbots for specific domains by training models with imported documents or Q&A pairs.",
     image: "/images/ability/en/ai_assiatant.png",
   },
   {
-    title: "Automatic data preprocessing",
+    title: "Automated Data Preprocessing",
     content:
-      "It provides various data import methods, such as manual input, direct segmentation, automatic LLM processing, and CSV",
+      "Save time and improve efficiency with automated text preprocessing, vectorization, and QA segmentation.",
     image: "/images/ability/en/dataset_import.png",
   },
   {
-    title: "Flow Settings",
+    title: "Workflow Orchestration",
     content:
-      "Flow based process orchestration mode, let your AI easily achieve database query, IO operation, networking communication and other expansion capabilities",
+      "Support AI Workflow orchestration, Design complex workflow using a visual drag-and-drop interface, integrating tasks like database queries and inventory checks.",
     image: "/images/ability/en/advanced_settings.png",
   },
   {
-    title: "OpenAPI",
+    title: "Seamless API Integration",
     content:
-      "External interface consistent with GPT API to help you easily access existing applications",
+      "Seamlessly connect with existing GPT applications and platforms like Discord, Slack, and Telegram using OpenAI-aligned APIs.",
     image: "/images/ability/en/openapi.png",
   },
 ];
 
 export const ABILITYS_ZH = [
   {
-    title: "开源优势",
-    content: "项目代码开源，内容安全可靠。",
-    image: "",
+    title: "特定领域 AI 客服",
+    content: "通过导入文档或问答对来训练 AI 模型，使其能够基于特定领域知识库进行交互式对话，构建特定领域的 AI 智能客服。",
+    image: "/images/ability/zh/ai_assiatant.png",
   },
   {
-    title: "独特的 QA 结构",
+    title: "自动化数据预处理",
     content:
-      "针对客服问答场景设计的 QA 结构，提高在大量数据场景中的问答准确性。",
-    image: "",
+      "提供手动输入、直接分段、LLM 自动处理等多种数据导入方式，自动完成文本预处理、向量化和 QA 分割，节省手动训练时间，提高效率。",
+    image: "/images/ability/zh/dataset_import.png",
   },
   {
-    title: "可视化工作流",
+    title: "工作流编排",
     content:
-      "通过 Flow 模块可视化从问题输入到模型输出的完整流程，便于调试和设计复杂流程。",
-    image: "",
+      "支持工作流（AI Workflow）编排，可以基于可视化的拖拽界面设计更加复杂的问答流程，如查询数据库、查询库存、预约实验室等。",
+    image: "/images/ability/zh/advanced_settings.png",
   },
   {
-    title: "无限扩展",
-    content:
-      "基于 API 进行扩展，无需修改 FastGPT 源码，也可快速接入现有的程序中。",
-    image: "",
-  },
-  {
-    title: "便于调试",
-    content: "提供搜索测试、引用修改、完整对话预览等多种调试途径。",
-    image: "",
-  },
-  {
-    title: "支持多种模型",
-    content:
-      "支持 GPT、Claude、文心一言等多种 LLM 模型，未来也将支持自定义的向量模型。",
-    image: "",
+    title: "强大的 API 集成",
+    content: "提供与 OpenAI 官方接口对齐的 API，直接接入现有 GPT 应用，轻松集成企业微信、公众号、飞书等平台。",
+    image: "/images/ability/zh/openapi.png",
   },
 ];
 
 export const ABILITYS_JA = [
   {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    image: "",
+    title: "ドメイン特化型AIアシスタント",
+    content: "インポートされたドキュメントやQ&Aペアでモデルをトレーニングすることで、特定のドメインに特化したAIチャットボットを作成します。",
+    image: "/images/ability/en/ai_assiatant.png",
   },
   {
-    title: "レスポンシブデザイン",
+    title: "自動データ前処理",
     content:
-      "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    image: "",
+      "テキストの前処理、ベクトル化、QAセグメンテーションを自動化することで、時間を節約し、効率を向上させます。",
+    image: "/images/ability/en/dataset_import.png",
   },
   {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    image: "",
-  },
-  {
-    title: "SEO最適化",
+    title: "ワークフローオーケストレーション",
     content:
-      "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    image: "",
+      "AIワークフローオーケストレーションをサポートし、データベースクエリや在庫チェックなどのタスクを統合した複雑なワークフローをビジュアルなドラッグ＆ドロップインターフェースで設計します。",
+    image: "/images/ability/zh/advanced_settings.png",
   },
   {
-    title: "ワンクリックデプロイメント",
-    content:
-      "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    image: "",
-  },
-  {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    image: "",
+    title: "シームレスなAPI統合",
+    content: "OpenAI準拠のAPIを使用して、Discord、Slack、Telegramなどの既存のGPTアプリケーションやプラットフォームとシームレスに接続します。",
+    image: "/images/ability/en/openapi.png",
   },
 ];
 
 export const ABILITYS_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    image: "",
+    "content": "استخدم الدردشات الآلية المدعومة بالذكاء الاصطناعي لمجالات محددة من خلال تدريب النماذج باستيراد المستندات أو أزواج الأسئلة والأجوبة.",
+    "image": "/images/ability/en/ai_assiatant.png",
+    "title": "مساعد ذكاء اصطناعي خاص بالمجال"
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    image: "",
+    "content": "وفر الوقت وحسّن الكفاءة من خلال المعالجة المسبقة الآلية للنصوص، والتحويل إلى متجهات، وتقسيم الأسئلة والأجوبة.",
+    "image": "/images/ability/en/dataset_import.png",
+    "title": "المعالجة المسبقة الآلية للبيانات"
   },
   {
-    title: "تخصيص سهل",
-    content:
-      "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    image: "",
+    "content": "ادعم تنسيق سير عمل الذكاء الاصطناعي، وصمم سير عمل معقدًا باستخدام واجهة سحب وإفلات مرئية، ودمج مهام مثل استعلامات قواعد البيانات وفحوصات المخزون.",
+    "image": "/images/ability/en/advanced_settings.png",
+    "title": "تنسيق سير العمل"
   },
   {
-    title: "مُحسّن لمحركات البحث",
-    content:
-      "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    image: "",
-  },
-  {
-    title: "نشر بنقرة واحدة",
-    content:
-      "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    image: "",
-  },
-  {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    image: "",
+    "content": "اتصل بسلاسة بتطبيقات ومنصات GPT الحالية مثل Discord و Slack و Telegram باستخدام واجهات برمجة التطبيقات المتوافقة مع OpenAI.",
+    "image": "/images/ability/en/openapi.png",
+    "title": "تكامل سلس لواجهة برمجة التطبيقات"
   },
 ];
 
 export const ABILITYS_ES = [
   {
-    title: "Ventaja del Código Abierto",
+    title: "Asistente de IA para Dominios Específicos",
     content:
-      "Completamente gratuito con una riqueza de opciones de personalización.",
-    image: "",
+      "Crea chatbots impulsados por IA para dominios específicos entrenando modelos con documentos importados o pares de preguntas y respuestas.",
+    image: "/images/ability/en/ai_assiatant.png",
   },
   {
-    title: "Diseño Responsivo",
+    title: "Preprocesamiento Automatizado de Datos",
     content:
-      "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    image: "",
+      "Ahorra tiempo y mejora la eficiencia con el preprocesamiento automatizado de texto, la vectorización y la segmentación de preguntas y respuestas.",
+    image: "/images/ability/en/dataset_import.png",
   },
   {
-    title: "Personalización Fácil",
+    title: "Orquestación de Flujos de Trabajo",
     content:
-      "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    image: "",
+      "Soporta la orquestación de flujos de trabajo de IA, diseña flujos de trabajo complejos utilizando una interfaz visual de arrastrar y soltar, integrando tareas como consultas a bases de datos y verificaciones de inventario.",
+    image: "/images/ability/en/advanced_settings.png",
   },
   {
-    title: "Optimizado para SEO",
+    title: "Integración Perfecta de API",
     content:
-      "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    image: "",
-  },
-  {
-    title: "Despliegue con Un Clic",
-    content:
-      "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    image: "",
-  },
-  {
-    title: "Soporte de Globalización",
-    content:
-      "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    image: "",
+      "Conéctate sin problemas con aplicaciones y plataformas GPT existentes como Discord, Slack y Telegram utilizando APIs alineadas con OpenAI.",
+    image: "/images/ability/en/openapi.png",
   },
 ];
 
 export const ABILITYS_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
-    image: "",
+    title: "ИИ-ассистент для конкретных областей",
+    content:
+      "Создавайте чат-боты с ИИ для конкретных областей, обучая модели на импортированных документах или парах вопросов и ответов.",
+    image: "/images/ability/en/ai_assiatant.png",
   },
   {
-    title: "Адаптивный Дизайн",
+    title: "Автоматизированная предварительная обработка данных",
     content:
-      "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    image: "",
+      "Экономьте время и повышайте эффективность с помощью автоматической предварительной обработки текста, векторизации и сегментации вопросов и ответов.",
+    image: "/images/ability/en/dataset_import.png",
   },
   {
-    title: "Легкая Настройка",
+    title: "Оркестрация рабочих процессов",
     content:
-      "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    image: "",
+      "Поддержка оркестрации рабочих процессов ИИ. Создавайте сложные рабочие процессы с помощью визуального интерфейса drag-and-drop, интегрируя такие задачи, как запросы к базам данных и проверка инвентаря.",
+    image: "/images/ability/en/advanced_settings.png",
   },
   {
-    title: "Оптимизировано для Поисковых Систем",
+    title: "Бесшовная интеграция API",
     content:
-      "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    image: "",
-  },
-  {
-    title: "Развертывание в Один Клик",
-    content:
-      "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    image: "",
-  },
-  {
-    title: "Поддержка Глобализации",
-    content:
-      "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    image: "",
+      "Легко подключайтесь к существующим приложениям и платформам GPT, таким как Discord, Slack и Telegram, используя API, совместимые с OpenAI.",
+    image: "/images/ability/en/openapi.png",
   },
 ];
 

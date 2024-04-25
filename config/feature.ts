@@ -11,42 +11,37 @@ import { VscDebugConsole } from "react-icons/vsc";
 import { SiOpenai } from "react-icons/si";
 
 export const FEATURES_EN = [
-  {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
-  },
-  {
-    title: "Responsive Design",
-    content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
-  },
-  {
-    title: "Easy Customization",
-    content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
-  },
-  {
-    title: "SEO Optimized",
-    content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
-  },
-  {
-    title: "One-Click Deployment",
-    content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
-  },
-  {
-    title: "Globalization Support",
-    content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
-  },
-];
+    {
+      "title": "Open Source",
+      "content": "Secure and reliable open-source codebase.",
+      "icon": BsGithub,
+    },
+    {
+      "title": "Optimized Q&A",
+      "content": "Enhanced question-answering accuracy for customer service.",
+      "icon": RiQuestionAnswerFill,
+    },
+    {
+      "title": "Visual Workflow",
+      "content": "Design complex workflows with ease using the Flow module.",
+      "icon": FcWorkflow,
+    },
+    {
+      "title": "Seamless Extensibility",
+      "content": "Seamlessly integrate FastGPT into your applications via API.",
+      "icon": GiExpander,
+    },
+    {
+      "title": "Debugging Tools",
+      "content": "Refine your models with comprehensive debugging features.",
+      "icon": VscDebugConsole,
+    },
+    {
+      "title": "Multi-Model Compatibility",
+      "content": "Compatible with various LLM models, with more to come.",
+      "icon": SiOpenai,
+    },
+]
 
 export const FEATURES_ZH = [
   {
@@ -83,135 +78,135 @@ export const FEATURES_ZH = [
 
 export const FEATURES_JA = [
   {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    "title": "オープンソース",
+    "content": "安全性と信頼性の高いオープンソースのコードベースを提供。",
+    "icon": BsGithub,
   },
   {
-    title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
+    "title": "最適化されたQ&A",
+    "content": "カスタマーサービス向けに質問応答の精度を向上。",
+    "icon": RiQuestionAnswerFill,
   },
   {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
+    "title": "ビジュアルワークフロー",
+    "content": "Flowモジュールで複雑なワークフローも簡単に設計可能。",
+    "icon": FcWorkflow,
   },
   {
-    title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
+    "title": "シームレスな拡張性",
+    "content": "APIを通じてFastGPTをアプリケーションにスムーズに統合。",
+    "icon": GiExpander,
   },
   {
-    title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
+    "title": "デバッグツール",
+    "content": "充実したデバッグ機能でモデルを改良。",
+    "icon": VscDebugConsole,
   },
   {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
+    "title": "マルチモデル互換性",
+    "content": "様々なLLMモデルに対応し、今後さらに拡充予定。",
+    "icon": SiOpenai,
   },
-];
+]
 
 export const FEATURES_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    "title": "مفتوح المصدر",
+    "content": "نوفر قاعدة شفرة مفتوحة المصدر آمنة وموثوقة.",
+    "icon": BsGithub,
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
+    "title": "أسئلة وأجوبة محسنة",
+    "content": "تحسين دقة الإجابة على الأسئلة لخدمة العملاء.",
+    "icon": RiQuestionAnswerFill,
   },
   {
-    title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
+    "title": "سير عمل مرئي",
+    "content": "تصميم سير العمل المعقد بسهولة باستخدام وحدة التدفق.",
+    "icon": FcWorkflow,
   },
   {
-    title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    icon: MagnetIcon,
+    "title": "قابلية توسع سلسة",
+    "content": "دمج FastGPT بسلاسة في تطبيقاتك عبر واجهة برمجة التطبيقات.",
+    "icon": GiExpander,
   },
   {
-    title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    "title": "أدوات تصحيح الأخطاء",
+    "content": "تحسين نماذجك بميزات تصحيح أخطاء شاملة.",
+    "icon": VscDebugConsole,
   },
   {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    icon: FaEarthAsia,
+    "title": "توافق متعدد النماذج",
+    "content": "يتوافق مع نماذج LLM المتنوعة، مع خطط لإضافة المزيد مستقبلاً.",
+    "icon": SiOpenai,
   },
-];
+]
 
 export const FEATURES_ES = [
   {
-    title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    "title": "Código abierto",
+    "content": "Ofrecemos una base de código abierto segura y confiable.",
+    "icon": BsGithub,
   },
   {
-    title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
+    "title": "Preguntas y respuestas optimizadas",
+    "content": "Mejor precisión en las respuestas a preguntas para atención al cliente.",
+    "icon": RiQuestionAnswerFill,
   },
   {
-    title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
+    "title": "Flujo de trabajo visual",
+    "content": "Diseñe flujos de trabajo complejos fácilmente con el módulo Flow.",
+    "icon": FcWorkflow,
   },
   {
-    title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    icon: MagnetIcon,
+    "title": "Extensibilidad sin problemas",
+    "content": "Integre FastGPT a sus aplicaciones sin problemas vía API.",
+    "icon": GiExpander,
   },
   {
-    title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    "title": "Herramientas de depuración",
+    "content": "Perfeccione sus modelos con completas funciones de depuración.", 
+    "icon": VscDebugConsole,
   },
   {
-    title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    icon: FaEarthAsia,
+    "title": "Compatibilidad con múltiples modelos",
+    "content": "Compatible con diversos modelos LLM, y más por venir.",
+    "icon": SiOpenai,
   },
-];
+]
 
 export const FEATURES_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    "title": "Открытый исходный код",
+    "content": "Предоставляем безопасную и надежную кодовую базу с открытым исходным кодом.",
+    "icon": BsGithub,
   },
   {
-    title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
+    "title": "Оптимизированные вопросы и ответы",
+    "content": "Повышенная точность ответов на вопросы для службы поддержки клиентов.",
+    "icon": RiQuestionAnswerFill,
   },
   {
-    title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
+    "title": "Визуальный рабочий процесс",
+    "content": "Легко создавайте сложные рабочие процессы с помощью модуля Flow.",
+    "icon": FcWorkflow,
   },
   {
-    title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    icon: MagnetIcon,
+    "title": "Простая расширяемость",
+    "content": "Интегрируйте FastGPT в свои приложения без проблем через API.",
+    "icon": GiExpander,
   },
   {
-    title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    "title": "Инструменты отладки",
+    "content": "Совершенствуйте свои модели с помощью полного набора функций отладки.",
+    "icon": VscDebugConsole,
   },
   {
-    title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    icon: FaEarthAsia,
+    "title": "Совместимость с разными моделями",
+    "content": "Совместим с различными моделями LLM, и еще больше в будущем.",
+    "icon": SiOpenai,
   },
-];
+]
 
 interface FeaturesCollection {
   [key: `FEATURES_${string}`]: {

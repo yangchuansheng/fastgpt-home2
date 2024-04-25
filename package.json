@@ -19,9 +19,11 @@
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.14",
     "lucide-react": "^0.316.0",
+    "mooviejs": "^1.1.5",
     "negotiator": "^0.6.3",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
+    "plyr": "^3.7.8",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
@@ -29,8 +31,7 @@
     "react-icons": "^5.0.1",
     "react-rough-notation": "^1.0.5",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7",
-    "plyr": "^3.7.8"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/negotiator": "^0.6.3",
