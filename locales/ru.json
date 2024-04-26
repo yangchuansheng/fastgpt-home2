@@ -1,4 +1,26 @@
 {
+  "video": {
+    "speed": "Скорость",
+    "normal": "Обычная"
+  },
+  "links": [
+    {
+      "label": "Возможности",
+      "href": "#Ability"
+    },
+    {
+      "label": "Цены",
+      "href": "#Pricing"
+    },
+    {
+      "label": "Часто задаваемые вопросы",
+      "href": "#FAQ"
+    },
+    {
+      "label": "Документация",
+      "href": "https://doc.fastai.site/"
+    }
+  ],
   "Hero": {
     "title1": "",
     "title2": "Лендинг",

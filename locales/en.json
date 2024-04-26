@@ -1,5 +1,8 @@
 {
-  "speed": "Speed",
+  "video": {
+    "speed": "Speed",
+    "normal": "Normal"
+  },
   "links": [
     {
       "label": "Features",

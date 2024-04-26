@@ -1,5 +1,8 @@
 {
-  "speed": "速度",
+  "video": {
+    "speed": "速度",
+    "normal": "正常"
+  },
   "links": [
     {
       "label": "特性",

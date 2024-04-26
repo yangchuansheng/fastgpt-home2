@@ -1,4 +1,26 @@
 {
+  "video": {
+    "speed": "再生速度",
+    "normal": "標準"
+  },
+  "links": [
+    {
+      "label": "特長",
+      "href": "#Ability"
+    },
+    {
+      "label": "価格",
+      "href": "#Pricing"
+    },
+    {
+      "label": "よくある質問",
+      "href": "#FAQ" 
+    },
+    {
+      "label": "ドキュメント",
+      "href": "https://doc.fastai.site/"
+    }
+  ],
   "Hero": {
     "title1": "AIに力を",
     "title2": "",

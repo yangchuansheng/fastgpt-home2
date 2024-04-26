@@ -1,13 +1,13 @@
 "use client";
 import { useEffect } from "react";
 
-const VideoPlayer = ({ dict }: { dict: { speed: string } }) => {
+const VideoPlayer = ({ dict }: { dict: { video: { speed: string; normal: string } } }) => {
   useEffect(() => {
     const Plyr = require("plyr");
     const player = new Plyr("#player", {
       i18n: {
-        speed: dict?.speed,
-        normal: "正常",
+        speed: dict?.video.speed,
+        normal: dict?.video.normal,
       },
       controls: [
         'play-large',
@@ -47,7 +47,7 @@ const VideoPlayer = ({ dict }: { dict: { speed: string } }) => {
       playerContainer.removeEventListener("mouseenter", show);
       playerContainer.removeEventListener("mouseleave", hiden);
     };
-  }, []);
+  }, [dict]);
 
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">

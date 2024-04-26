@@ -1,4 +1,26 @@
 {
+  "video": {
+    "speed": "Velocidad",  
+    "normal": "Normal"
+  },
+  "links": [
+    {
+      "label": "Características",
+      "href": "#Ability" 
+    },
+    {
+      "label": "Precios",
+      "href": "#Pricing"
+    },
+    {
+      "label": "Preguntas frecuentes",
+      "href": "#FAQ"
+    },
+    {
+      "label": "Documentación",
+      "href": "https://doc.fastai.site/" 
+    }
+  ],
   "Hero": {
     "title1": "Potencia la IA",
     "title2": "",

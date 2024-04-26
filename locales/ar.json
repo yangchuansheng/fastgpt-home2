@@ -1,4 +1,26 @@
 {
+  "video": {
+    "speed": "سرعة التشغيل",
+    "normal": "عادي" 
+  },
+  "links": [
+    {
+      "label": "الميزات",
+      "href": "#Ability"
+    },
+    {
+      "label": "الأسعار",  
+      "href": "#Pricing"
+    },
+    {
+      "label": "الأسئلة الشائعة",
+      "href": "#FAQ"
+    },
+    {
+      "label": "الوثائق",
+      "href": "https://doc.fastai.site/" 
+    }
+  ],
   "Hero": {
     "title1": "بمعرفتك",
     "title2": "مكّن الذكاء",
