@@ -7,17 +7,15 @@ import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
 import SocialProof from "@/components/home/SocialProof";
 import VideoPlayer from "@/components/home/Video";
-import { defaultLocale, getDictionary } from "@/lib/i18n";
+import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
 
 export default async function LangHome({
   params: { lang },
 }: {
-  params: { lang: string };
+  params: { lang?: string[] };
 }) {
-  // const langName = (lang && lang[0]) || defaultLocale;
   let langName =
     lang && lang[0] && lang[0] !== "index" ? lang[0] : defaultLocale;
-
   const dict = await getDictionary(langName);
 
   return (
@@ -47,5 +45,10 @@ export default async function LangHome({
       </main>
     </>
   );
+}
+
+export async function generateStaticParams() {
+  const keys = Object.keys(localeNames).map((lang) => ({ lang: [lang] }));
+  return [{ lang: [""] }, ...keys];
 }
 
