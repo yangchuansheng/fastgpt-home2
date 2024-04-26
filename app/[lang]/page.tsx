@@ -7,7 +7,7 @@ import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
 import SocialProof from "@/components/home/SocialProof";
 import VideoPlayer from "@/components/home/Video";
-import { defaultLocale, getDictionary } from "@/lib/i18n";
+import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
 
 export default async function LangHome({
   params: { lang },
@@ -47,5 +47,12 @@ export default async function LangHome({
       </main>
     </>
   );
+}
+
+export async function generateStaticParams() {
+  const keys = Object.keys(localeNames);
+  return keys.map((post) => ({
+    lang: post,
+  }));
 }
 

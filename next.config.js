@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  output: "standalone",
+  output: "export",
   reactStrictMode: process.env.NODE_ENV === 'development' ? false : true,
   compress: true,
 
-  webpack(config, { isServer }) {
+  webpack (config, { isServer }) {
     config.module = {
       ...config.module,
       rules: config.module.rules.concat([
@@ -17,10 +17,11 @@ const nextConfig = {
       ]),
       exprContextCritical: false,
       unknownContextCritical: false
-    };
+    }
 
-    return config;
-  }
-};
+    return config
+  },
+  images: { unoptimized: true }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
