@@ -12,12 +12,10 @@ import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
 export default async function LangHome({
   params: { lang },
 }: {
-  params: { lang: string };
+  params: { lang?: string[] };
 }) {
-  // const langName = (lang && lang[0]) || defaultLocale;
   let langName =
     lang && lang[0] && lang[0] !== "index" ? lang[0] : defaultLocale;
-
   const dict = await getDictionary(langName);
 
   return (
@@ -50,9 +48,7 @@ export default async function LangHome({
 }
 
 export async function generateStaticParams() {
-  const keys = Object.keys(localeNames);
-  return keys.map((post) => ({
-    lang: post,
-  }));
+  const keys = Object.keys(localeNames).map((lang) => ({ lang: [lang] }));
+  return [{ lang: [""] }, ...keys];
 }
 
