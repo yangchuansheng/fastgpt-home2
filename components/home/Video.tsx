@@ -1,7 +1,11 @@
 "use client";
 import { useEffect } from "react";
 
-const VideoPlayer = ({ dict }: { dict: { video: { speed: string; normal: string } } }) => {
+const VideoPlayer = ({
+  dict,
+}: {
+  dict: { video: { speed: string; normal: string } };
+}) => {
   useEffect(() => {
     const Plyr = require("plyr");
     const player = new Plyr("#player", {
@@ -10,22 +14,22 @@ const VideoPlayer = ({ dict }: { dict: { video: { speed: string; normal: string 
         normal: dict?.video.normal,
       },
       controls: [
-        'play-large',
-        'restart',
-        'rewind',
-        'play',
-        'fast-forward',
-        'progress',
-        'current-time',
-        'duration',
-        'mute',
-        'volume',
-        'captions',
-        'settings',
-        'pip',
-        'airplay',
+        "play-large",
+        "restart",
+        "rewind",
+        "play",
+        "fast-forward",
+        "progress",
+        "current-time",
+        "duration",
+        "mute",
+        "volume",
+        "captions",
+        "settings",
+        "pip",
+        "airplay",
         // 'download',
-        'fullscreen',
+        "fullscreen",
       ],
     });
     const show = () => {
@@ -51,7 +55,13 @@ const VideoPlayer = ({ dict }: { dict: { video: { speed: string; normal: string 
 
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
-      <video id="player" playsInline controls data-poster="/images/hero/zh/fastgpt-demo.jpg">
+      <video
+        id="player"
+        playsInline
+        controls
+        data-poster="/images/hero/zh/fastgpt-demo.jpg"
+        className="h-[470px]"
+      >
         <source
           src="https://otnvvf-imgs.oss.laf.run/fastgpt.mp4"
           type="video/mp4"
@@ -62,3 +72,4 @@ const VideoPlayer = ({ dict }: { dict: { video: { speed: string; normal: string 
 };
 
 export default VideoPlayer;
+
