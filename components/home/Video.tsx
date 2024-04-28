@@ -40,13 +40,14 @@ const VideoPlayer = ({
     };
     player.on("ready", (e: any) => {
       player.toggleControls(false);
-      const playerContainer = document.querySelector("#player-container");
+      const playerContainer = document.getElementById("player-container");
       if (!playerContainer) return;
       playerContainer.addEventListener("mouseenter", show);
       playerContainer.addEventListener("mouseleave", hiden);
     });
+
     return () => {
-      const playerContainer = document.querySelector("#player-container");
+      const playerContainer = document.getElementById("player-container");
       if (!playerContainer) return;
       playerContainer.removeEventListener("mouseenter", show);
       playerContainer.removeEventListener("mouseleave", hiden);
@@ -54,13 +55,15 @@ const VideoPlayer = ({
   }, [dict]);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
+    <div
+      id="player-container"
+      className="mx-auto max-w-3xl px-4 py-4 sm:px-6 lg:px-8 mb-12 mt-12 md:mt-20 text-center h-[270px] sm:h-[500px]"
+    >
       <video
         id="player"
         playsInline
         controls
         data-poster="/images/hero/zh/fastgpt-demo.jpg"
-        className="h-[470px]"
       >
         <source
           src="https://otnvvf-imgs.oss.laf.run/fastgpt.mp4"
